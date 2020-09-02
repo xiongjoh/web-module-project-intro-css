@@ -54,6 +54,27 @@ table {
 div {
     border: 1px solid black;
 }
+
+
 section nav a{
-margin: 0 10%;
+margin: 0 2%;
+padding: 5%;
+text-align: center;
+}
+
+.visit{
+    background:#FF764E;
+}
+.learn{
+    background:#5ED3EB;
+}
+.involve{
+    background:#FFCD69;
+}
+
+#section1 img {
+    border-radius: 100%;
+    height:15%;
+    width:15%;
+    display: inline-block;
 }
