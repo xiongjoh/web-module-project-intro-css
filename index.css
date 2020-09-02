@@ -50,16 +50,38 @@ table {
 
 /*Reset Ends Here*/
 /*--------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+}
+a, p{
+    font-family: 'Roboto Mono', monospace;
+}
 
 div {
     border: 1px solid black;
 }
 
+#section1 {
+    margin: 2% auto;
+    text-align: center;
+}
 
-section nav a{
-margin: 0 2%;
-padding: 5%;
+.navigation nav{
+    text-align: center;
+}
+
+.navigation nav a{
+margin-left: 10%;
+width: 8%;
+max-height: 8%;
+padding: 1% 1%;
 text-align: center;
+box-sizing: border-box;
+display: inline-block;
+border-radius: 15%;
+color: white;
 }
 
 .visit{
@@ -77,4 +99,27 @@ text-align: center;
     height:15%;
     width:15%;
     display: inline-block;
+}
+
+.yosemite-inline {
+    display: inline-block;
+    padding: 6% 2%;
+}
+
+.main-text{
+    background:#DDB9A3;
+}
+
+#section2 {
+    text-align:center;
+    padding: 0 40%;
+}
+
+#section2 img{
+    height: 50%;
+    width: 50%;
+}
+
+footer{
+    background: #F9E7DC;
 }
