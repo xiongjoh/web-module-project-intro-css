@@ -81,15 +81,14 @@ a, p{
 }
 
 .navigation nav a{
-
-margin: 0 7%;
-width: 8.5%;
-padding: 1%;
-text-align: center;
-box-sizing: border-box;
-display: inline-block;
-border-radius: 20%;
-color: white;
+    margin: 0 7%;
+    width: 8.5%;
+    padding: 1%;
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 20%;
+    color: white;
 }
 
 .visit{
@@ -136,10 +135,10 @@ color: white;
     width: 50%;
 }
 
-body img{
+.navigation img{
     width: 99vw;
-    height: 250px;
-    object-fit: cover;
+    height: 40vh;
+    object-fit:cover;
 }
 
 footer{
